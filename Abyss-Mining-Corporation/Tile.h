@@ -1,7 +1,7 @@
 #pragma once
 struct Tile{
-	enum TileState { EMPTY=0, OCCUPIED=1, DISABLED};
-	TileState state;
+	enum TILE_STATE { EMPTY=0, OCCUPIED=1, DISABLED};
+	TILE_STATE state;
 	/*costMovement represents the cost to move to this block*/
 	float costMovement;
 	
