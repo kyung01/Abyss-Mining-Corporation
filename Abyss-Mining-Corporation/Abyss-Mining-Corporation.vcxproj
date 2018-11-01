@@ -149,18 +149,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="GameEnums.h" />
+    <ClInclude Include="Hunger.h" />
+    <ClInclude Include="Instruction.h" />
+    <ClInclude Include="MoveTo.h" />
+    <ClInclude Include="Need.h" />
+    <ClInclude Include="Structs.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="Clock.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Sim.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TileArray.h" />
     <ClInclude Include="World.h" />
+    <ClInclude Include="WorldPathFinding.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Abyss-Mining-Corporation.cpp" />
     <ClCompile Include="Clock.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Instruction.cpp" />
+    <ClCompile Include="MoveTo.cpp" />
     <ClCompile Include="Sim.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -168,7 +177,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="TileArray.cpp" />
     <ClCompile Include="World.cpp" />
+    <ClCompile Include="WorldPathFinding.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

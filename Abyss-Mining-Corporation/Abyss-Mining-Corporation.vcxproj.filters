@@ -19,6 +19,18 @@
     <Filter Include="Header Files\Graphic">
       <UniqueIdentifier>{14b0350b-ab2b-4ec3-8eb7-8080b44e83ac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Game\Sims">
+      <UniqueIdentifier>{6d12c186-84b2-463a-b138-2833b15b345e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Sims\Needs">
+      <UniqueIdentifier>{1083bd31-bfbb-400a-a11a-06ac0b966e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Sims\Instructions">
+      <UniqueIdentifier>{bf77910c-a36a-495c-8786-ab6177b361d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sims">
+      <UniqueIdentifier>{4a6eac87-7278-4574-800c-124403d52d18}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -45,6 +57,27 @@
     <ClInclude Include="GameEnums.h">
       <Filter>Header Files\Game</Filter>
     </ClInclude>
+    <ClInclude Include="WorldPathFinding.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TileArray.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Need.h">
+      <Filter>Header Files\Game\Sims\Needs</Filter>
+    </ClInclude>
+    <ClInclude Include="Hunger.h">
+      <Filter>Header Files\Game\Sims\Needs</Filter>
+    </ClInclude>
+    <ClInclude Include="Instruction.h">
+      <Filter>Header Files\Game\Sims\Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveTo.h">
+      <Filter>Header Files\Game\Sims\Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -64,6 +97,18 @@
     </ClCompile>
     <ClCompile Include="Sim.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Instruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldPathFinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveTo.cpp">
+      <Filter>Source Files\Sims</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
